@@ -3,7 +3,7 @@
         "menu": {
             "sd": "Instalar através do cartão SD",
             "net": "Instalar através da LAN ou da Internet",
-            "usb": "Instalar atráves do USB",
+            "usb": "Instalar através do USB",
             "sig": "Gerir patches de assinaturas",
             "set": "Definições",
             "exit": "Sair"
@@ -15,7 +15,7 @@
         "usb": {
             "warn": {
                 "title": "Aviso!",
-                "desc": "A instalação através do USB \"simplesmente não funcionará\" em alguns dispositivos ou configurações.\nSe tiver problemas a instalar através do USB, por favor não arranque\ncabelos! Recomendamos que use o NS-USBloader para instalações USB, ou\nem alternativa instale remotamente através da LAN/Internet, especialmente\nse usar um adaptador ethernet!\n\nIrá benefeciar imenso com isso...",
+                "desc": "A instalação através do USB \"simplesmente não funcionará\" em alguns dispositivos ou configurações.\nSe tiver problemas a instalar através do USB, por favor não arranque\ncabelos! Recomendamos que use o NS-USBloader para instalações USB, ou\nem alternativa instale remotamente através da LAN/Internet, especialmente\nse usar um adaptador ethernet!\n\nIrá beneficiar imenso com isso...",
                 "opt1": "Não me aborrecer novamente"
             },
             "error": {
@@ -25,7 +25,7 @@
         },
         "applet": {
             "title": "Modo applet não suportado",
-            "desc": "Poderá ter problemas se usar o Awoo Installer em modo Applet. Se\ntiver problemas, execute o Awoo Installer através de um título\ninstalado (mantenha R primido enquanto inicia um jogo)!"
+            "desc": "Poderá ter problemas se usar o Awoo Installer em modo Applet. Se\ntiver problemas, execute o Awoo Installer através de um título\ninstalado (mantenha R premido enquanto inicia um jogo)!"
         },
         "buttons": "\ue0e0 Selecionar    \ue0e1 Sair"
     },
@@ -33,7 +33,7 @@
         "net": {
             "help": {
                 "title": "Ajuda",
-                "desc": "Os Ficheiros podem ser instalados remotamente a partir de outros dispositivos usando ferramentas como o\nNS-USBloader em modo Tinfoil. Para enviar ficheiros para a Switch, abra um\ndos softwares compatíveis no PC ou no telemóvel, insira o\n endreço de IP da Switch (aparece no ecrã) selecione os ficheiros e envie para\na consola! Se não conseguir selecionar um tipo de ficheiro, tente renomeá-lo para uma extensão compatível.\nO Awoo Installer não considera a extensão nas instalações de rede!\n\nSe tiver problemas ou configurar, apenas copie os ficheiros para o cartão SD\ne tente a opção \"Instalação através do cartão SD\" presente no menu principal!"
+                "desc": "Os ficheiros podem ser instalados remotamente a partir de outros dispositivos usando ferramentas como o\nNS-USBloader em modo Tinfoil. Para enviar ficheiros para a Switch, abra um\ndos softwares compatíveis no PC ou no telemóvel, insira o\n endereço de IP da Switch (aparece no ecrã) selecione os ficheiros e envie para\na consola! Se não conseguir selecionar um tipo de ficheiro, tente renomeá-lo para uma extensão compatível.\nO Awoo Installer não considera a extensão nas instalações de rede!\n\nSe tiver problemas ao configurar, apenas copie os ficheiros para o cartão SD\ne tente a opção \"Instalação através do cartão SD\" presente no menu principal!"
             },
             "src": {
                 "title": "Deseja instalar através de onde?",
@@ -53,8 +53,8 @@
             "top_info": "Selecione os ficheiros que deseja instalar através do servidor, depois pressione o botão Mais!",
             "top_info1": "A aguardar ligação... O endereço de IP da Switch é: ",
             "failed": "A instalação remota falhou!",
-            "transfer_interput": "Ocorreu um erro ao tranferir os dados. Verifique a sua ligação à rede.",
-            "source_string": " através de rede local",
+            "transfer_interput": "Ocorreu um erro ao transferir os dados. Verifique a sua ligação à rede.",
+            "source_string": " através da rede local",
             "buttons": "\ue0e3 Instalar através da Internet    \ue0e2 Ajuda    \ue0e1 Cancelar",
             "buttons1": "\ue0e0 Selecionar Ficheiro    \ue0e3 Selecionar Todos    \ue0ef Instalar Ficheiro(s)    \ue0e1 Cancelar"
         },
@@ -73,13 +73,13 @@
         "usb": {
             "help": {
                 "title": "Ajuda",
-                "desc": "Os Ficheiros podem ser instalados através do USB a partir de outros dispositivos usando ferramentas como o\nNS-USBloader em modo Tinfoil. Para enviar ficheiros para a Switch, abra um\ndos softwares compatíveis no PC, selecione os ficheiros e envie para\na consola!\n\nInfelizmente as instalações USB requerem configurações epecíficas em algumas\nplataformas causando problemas. Se for o caso,\ntente instalar através da LAN/Internet, ou copie os ficheiros para o cartão SD\ne tente a opção \"Instalação através do cartão SD\" presente no menu principal!"
+                "desc": "Os ficheiros podem ser instalados através do USB a partir de outros dispositivos usando ferramentas como o\nNS-USBloader em modo Tinfoil. Para enviar ficheiros para a Switch, abra um\ndos softwares compatíveis no PC, selecione os ficheiros e envie para\na consola!\n\nInfelizmente as instalações USB requerem configurações específicas em algumas\nplataformas causando problemas. Se for o caso,\ntente instalar através da LAN/Internet, ou copie os ficheiros para o cartão SD\ne tente a opção \"Instalação através do cartão SD\" presente no menu principal!"
             },
-            "top_info": "USB connection successful! Waiting for list of files to be sent...",
+            "top_info": "Ligação USB bem-sucedida! A aguardar envio da lista de ficheiros...",
             "top_info2": "Selecione os ficheiros que deseja instalar através do USB, depois pressione o botão Mais!",
             "error": "A transferência USB expirou ou falhou",
             "source_string": " através do USB",
-            "buttons": "\ue0e2 (Manter primido) Ajuda    \ue0e1 (Manter primido) Cancelar",
+            "buttons": "\ue0e2 (Manter premido) Ajuda    \ue0e1 (Manter premido) Cancelar",
             "buttons2": "\ue0e0 Selecionar Ficheiro    \ue0e3 Selecionar Todos    \ue0ef Instalar Ficheiro(s)    \ue0e1 Cancelar"
         },
         "target": {
@@ -94,7 +94,7 @@
             "top_info0": "A instalar ",
             "preparing": "A preparar a instalação...",
             "failed": "Instalação falhada ",
-            "failed_desc": "Parcialmente instalado o conteúdo poderá ser removido através da applet Definições do Sistema.",
+            "failed_desc": "O conteúdo parcialmente instalado poderá ser removido através da applet Definições do Sistema.",
             "complete": "Instalação completa",
             "desc0": " ficheiros instalados com sucesso!",
             "desc1": " instalado!",
@@ -103,30 +103,30 @@
         },
         "nca_verify": {
             "title": "Detetada assinatura NCA inválida!",
-            "desc": "O software não assinado corretamente deverá ser instalado apenas de fontes\nconfiáveis. Ficheiros que contiverem repaks de cartuchos ou desbloqueadores de DLC mostrarão\nsempre esta mensagem. Esta verificação pode ser desligada nas definições do Awoo Installer.\n\nTem a certeza que deseja continuar a instalação?",
+            "desc": "O software não assinado corretamente deverá ser instalado apenas de fontes\nconfiáveis. Ficheiros que contiverem repacks de cartuchos ou desbloqueadores de DLC mostrarão\nsempre esta mensagem. Esta verificação pode ser desligada nas definições do Awoo Installer.\n\nTem a certeza que deseja continuar a instalação?",
             "opt1": "Sim, eu compreendo os riscos",
             "error": "O NCA solicitado não está corretamente assinado: "
         },
         "finished": [
-            "Disfrute da \"cópia legal\"!",
+            "Desfrute da \"cópia legal\"!",
             "Tenho a certeza que depois de experimentar o jogo irá adorar comprá-lo!",
             "Comprou o joguinho certo? A Nintendo agradece muito a aquisição!",
             "Ultrapassar DRM é brutal, não é?",
             "Provavelmente foram salvas seis árvores ao não comprar este jogo! Todo o plástico vai para algum lado!",
-            "Os ninjas da Nintendo foram enviados para sua localização atual.",
-            "Nem foi necessário discutirmos sobre idiologias políticas para chegarmos até aqui!"
+            "Os ninjas da Nintendo foram enviados para a sua localização atual.",
+            "Nem foi necessário discutirmos sobre ideologias políticas para chegarmos até aqui!"
         ]
     },
     "sig": {
         "install": "Instalar",
         "uninstall": "Desinstalar",
         "update": "Atualizar",
-        "version_text": "Os patches de assinaturas instalado funcionam até à versão ",
+        "version_text": "Os patches de assinaturas instalados funcionam até à versão ",
         "title0": "Instalar patches de assinaturas?",
         "desc0": "Os patches de assinaturas são necessários para instalar e executar software oficial.",
         "backup_failed": "Não foi possível salvaguardar o patches.ini do Hekate! Instalar mesmo assim?",
         "backup_failed_desc": "Se não usar Hekate pode ignorar este aviso.",
-        "download_failed": "Impossível trasnferir os patches de assinaturas",
+        "download_failed": "Impossível transferir os patches de assinaturas",
         "download_failed_desc": "Talvez tenha definido uma fonte errada nas definições do Awoo Installer,\nou o servidor está apenas em baixo neste momento.",
         "version_text2": "Os patches de assinaturas foram atualizados para funcionar até à versão ",
         "install_complete": "Instalação completa!",
@@ -142,12 +142,12 @@
     },
     "options": {
         "menu_items": {
-            "ignore_firm": "Ignorar o requisito de firmeware mínimo imposto pelo título",
+            "ignore_firm": "Ignorar o requisito de firmware mínimo imposto pelo título",
             "nca_verify": "Verificar a assinatura NCA antes da instalação",
             "boost_mode": "Ativar \"boost mode\" durante as instalações",
-            "ask_delete": "Questionar a eliminação dos ficheiros orginais depois da instalação",
+            "ask_delete": "Questionar a eliminação dos ficheiros originais depois da instalação",
             "auto_update": "Procurar atualizações do Awoo Installer automaticamente",
-            "gay_option": "Remover animé",
+            "gay_option": "Remover anime",
             "sig_url": "URL da fonte dos patches de assinaturas: ",
             "language": "Idioma: ",
             "check_update": "Procurar atualizações do Awoo Installer",
@@ -156,7 +156,7 @@
         "nca_warn": {
             "title": "Aviso!",
             "desc": "Alguns ficheiros instaláveis podem conter conteúdo malicioso! Apenas desligue esta\nfuncionalidade se tiver a certeza que o software que instala\né fidedigno!\n\nTem a certeza que deseja desativar a verificação NCA?",
-            "opt1": "Sim, Eu quero um tijolo"
+            "opt1": "Sim, eu quero um tijolo"
         },
         "sig_hint": "Introduza o URL para obter os patches de assinaturas",
         "update": {
@@ -167,7 +167,7 @@
             "top_info": "A atualizar o Awoo Installer ",
             "bot_info": "A transferir o Awoo Installer ",
             "bot_info2": "A extrair o Awoo Installer ",
-            "complete": "Atulização completa!",
+            "complete": "Atualização completa!",
             "failed": "Atualização falhada!",
             "end_desc": "O software será encerrado.",
             "title_check_fail": "Sem atualizações",
@@ -175,14 +175,14 @@
         },
         "credits": {
             "title": "Agradecimentos às seguintes pessoas!",
-            "desc": "- HookedBehemoth por muitas contribuições\n- Adubbz e outros contribuidores pelo o Tinfoil\n- XorTroll pelo o Plutonium e Goldleaf\n- blawar (estrangulador de esposas) e nicoboss pelo suporte NSZ\n- O pessoal do AtlasNX Discuck (ou pelo menos alguns deles)\n- Tmabém para o pessoal do RetroNX Discuck (sem involvimento direto)\n- namako8982 pela arte da Momiji\n- TheXzoron por ser um idiota"
+            "desc": "- HookedBehemoth por muitas contribuições\n- Adubbz e outros contribuidores pelo o Tinfoil\n- XorTroll pelo o Plutonium e Goldleaf\n- blawar (estrangulador de esposas) e nicoboss pelo suporte NSZ\n- O pessoal do AtlasNX Discuck (ou pelo menos alguns deles)\n- Também para o pessoal do RetroNX Discuck (sem envolvimento direto)\n- namako8982 pela arte da Momiji\n- TheXzoron por ser um idiota"
         },
         "language": {
             "title": "Selecione o idioma do Awoo Installer",
             "desc": "O software será encerrado depois de alterar o idioma. Pressione B para cancelar.",
             "system_language": "Sistema"
         },
-        "title": "Alteração de deifinições do Awoo Installer!",
+        "title": "Alteração de definições do Awoo Installer!",
         "buttons": "\ue0e0 Selecionar/Alterar    \ue0e1 Cancelar"
     },
     "common": {
